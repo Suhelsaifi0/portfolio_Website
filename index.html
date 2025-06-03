@@ -22,7 +22,7 @@
           <div class="nav-items">
               <div><a href="#projects">Projects</a></div>
               <div><a href="#skills" >Skills</a></div>
-              <div><a href="#contact-me">Contact Me</a></div>
+              <div><a href="ResumeSS.pdf" download="C:\Users\Suhel Saifi\Desktop\PortFolioWebsite\ResumeSS.pdf">Resume</a></div>
           </div>
           </div>
 
@@ -40,9 +40,16 @@
                 journey as a Mern Stack Developer
               </div>
               
-              <div class="btn-pink" id="btn">
-                Hire Me
-              </div>
+              <!-- <div class="btn-pink" id="btn" ><a href="#icons" >Social Media</a></div> -->
+               <div class="btn-pink" id="btn">Social Media</div>
+
+              <script>
+               document.getElementById("btn").addEventListener("click", function() {
+               document.getElementById("icons").scrollIntoView({ behavior: "smooth" });
+               });
+               </script>
+
+   
             </div>
         
             <div class="hero-section-right">
@@ -287,18 +294,31 @@
           <div>
             <a href="#skills">Skills</a>
           </div>
-          <div>
-            <a href="#contact-me">Contact Me</a>
-          </div>
+          <div><a href="ResumeSS.pdf" download="C:\Users\Suhel Saifi\Desktop\PortFolioWebsite\ResumeSS.pdf">Resume</a></div>
         </div>
 
-        <div class="icon-wrapper">
+        <!-- <div class="icon-wrapper">
           <i class="fa-brands fa-linkedin icon"></i>
           <i class="fa-brands fa-github icon"></i>
-          <!-- <i class="fa-brands fa-twitter icon"></i> -->
           <i class="fa-brands fa-instagram icon"></i>
+          <i class="fa-brands fa-twitter icon"></i> -->
           <!-- <i class="fa-regular fa-envelope icon"></i> -->
-        </div>      
+        <!-- </div>        -->
+
+        <div id="icons" class="icon-wrapper">
+    <a href="https://www.linkedin.com/in/suhel-saifi-876007245/" target="_blank">
+    <i class="fa-brands fa-linkedin icon"></i>
+  </a>
+  
+  <a href="https://github.com/Suhelsaifi0" target="_blank">
+    <i class="fa-brands fa-github icon"></i>
+  </a>
+  
+  <a href="https://www.instagram.com/suhelsaifi_/?next=%2F" target="_blank">
+    <i class="fa-brands fa-instagram icon"></i>
+  </a>
+</div>
+
 
       </div>
       </div>
