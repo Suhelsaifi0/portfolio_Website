@@ -1,145 +1,153 @@
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="style.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-      <title>Portfolio Website </title>
-  </head>
-  <body>
-      
-    <div id="wrapper">
-      <div class="container">
-          <div class="navbar" style="margin-left: 30px;">
+<!DOCTYPE html>
+<html lang="en">
 
-          <div class="logo-container">
-              <img src="./Images/userAsset/S.jpeg"  class="logo" style="width: 25px; margin-right: 20px;">
-              <div class="logo-text">uhel Saifi
-              </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Portfolio Website </title>
+</head>
+
+<body>
+
+  <div id="wrapper">
+    <div class="container">
+      <div class="navbar" style="margin-left: 30px;">
+
+        <div class="logo-container">
+          <img src="./Images/userAsset/S.jpeg" class="logo" style="width: 25px; margin-right: 20px;">
+          <div class="logo-text">uhel Saifi
           </div>
+        </div>
 
-          <div class="nav-items">
-              <div><a href="#projects">Projects</a></div>
-              <div><a href="#skills" >Skills</a></div>
-              <div><a href="ResumeSS.pdf" download="C:\Users\Suhel Saifi\Desktop\PortFolioWebsite\ResumeSS.pdf">Resume</a></div>
+        <div class="nav-items">
+          <div><a href="#projects">Projects</a></div>
+          <div><a href="#skills">Skills</a></div>
+          <div><a href="ResumeSS.pdf" download="C:\Users\Suhel Saifi\Desktop\PortFolioWebsite\ResumeSS.pdf">Resume</a>
           </div>
-          </div>
-
-          <div class="hero-section">
-            <!-- <div class=" absolute faded-text">Suhel Saifi</div> -->
-            <div class="hero-section-left">
-            <div class="hero-section-heading">Hii !! Suhel Saifi</div>
-            
-            <div class="hero-section-heading hero-section-sub-heading">
-              I am a <span class="role"></span>
-            </div>
-        
-              <div class="hero-section-description">
-                I am a Mern Stack and here  is my portfolio website. Here you will learn about my 
-                journey as a Mern Stack Developer
-              </div>
-              
-              <!-- <div class="btn-pink" id="btn" ><a href="#icons" >Social Media</a></div> -->
-               <div class="btn-pink" id="btn">Social Media</div>
-
-              <script>
-               document.getElementById("btn").addEventListener("click", function() {
-               document.getElementById("icons").scrollIntoView({ behavior: "smooth" });
-               });
-               </script>
-
-   
-            </div>
-        
-            <div class="hero-section-right">
-              <div class="absolute icons icon-dots">
-                <img src="./Images/userAsset/dots.png" alt="">
-              </div>
-              <div class="absolute icons icon-cube">
-                <img src="./Images/userAsset/cube.png" alt="">
-              </div>
-              <div class="absolute icons icon-circle">
-                <img src="./Images/userAsset/circle.png" alt="">
-              </div>
-              <div class="absolute icons icon-zigzag">
-                <img src="./Images/userAsset/zigzags.png" alt="">
-              </div>
-              <div class="absolute icons icon-plus">
-                <img src="./Images/userAsset/plus.png" alt="">
-              </div>
-              <div class="user-image">
-                <img src="./Images/userAsset/suhelsaifi1.png" alt="" style="height: 250px; border-radius: 25px;">
-              </div>
-            </div>
-          </div>
+        </div>
       </div>
-      
-      <div id="projects" class="project-section">
-        <h2 class="page-header">Projects</h2>
-      <div class="project-container">
-            <div class="project-card" id="Project1">
-              <div class="project-number project-number-right">01</div>
-              <div class="project-content project-content-left">
-                <div class="project-skills-container">
-                  <img class="project-skill" src="Images/stack/HTML.png" alt="">
-                  <img class="project-skill" src="Images/stack/CSS.png" alt="">
-                  <img class="project-skill" src="Images/stack/Javascript.svg" alt="">
-                  <img class="project-skill" src="Images/stack/Express.png" alt="">
-                  <img class="project-skill" src="Images/stack/NextJsCircle.png" alt="">
-                  <img class="project-skill" src="Images/stack/Tailwind.png" alt="">
-                  <img class="project-skill" src="Images/stack/NodeJs.svg" alt="">
-                  <img class="project-skill" src="Images/stack/MongoDB.svg" alt="">
-                  <img class="project-skill" src="Images/stack/Redux.svg" alt="">
-                  <img class="project-skill" src="Images/stack/Vercel.svg" alt="">
-                </div>
-                <h2 class="project-heading">Tint and Orange</h2>
-                <div class="project-subHeading">
-                  Its a car modification Company which provide you sheets to protect your car from scratch
-                </div>
 
-                <div class="btn-grp">
-                  <button class="btn-pink btn-project">Read More</button>
-                  <a href="">
-                    <i title="GitHub-link" class="fa-brands fa-github icon"></i>
-                  </a>
-                  <a href="">
-                    <i title="live-link" class="fa-solid fa-link icon"></i>
-                  </a>
-                </div>
-              </div>
+      <div class="hero-section">
+        <!-- <div class=" absolute faded-text">Suhel Saifi</div> -->
+        <div class="hero-section-left">
+          <div class="hero-section-heading">Hii !! Suhel Saifi</div>
+
+          <div class="hero-section-heading hero-section-sub-heading">
+            I am a <span class="role"></span>
           </div>
 
-          <div class="project-card" id="Project2">
-            <div class="project-number project-number-left">02</div>
-            <div class="project-content project-content-right">
-              <div class="project-skills-container">
-                <img class="project-skill" src="Images/stack/HTML.png" alt="">
-                <img class="project-skill" src="Images/stack/CSS.png" alt="">
-                <img class="project-skill" src="Images/stack/Javascript.svg" alt="">
-                <img class="project-skill" src="Images/stack/Express.png" alt="">
-                <img class="project-skill" src="Images/stack/NextJsCircle.png" alt="">
-                <img class="project-skill" src="Images/stack/Tailwind.png" alt="">
-                <img class="project-skill" src="Images/stack/NodeJs.svg" alt="">
-                <img class="project-skill" src="Images/stack/MongoDB.svg" alt="">
-                <img class="project-skill" src="Images/stack/Redux.svg" alt="">
-                <img class="project-skill" src="Images/stack/Vercel.svg" alt="">
-              </div>
-              <h2 class="project-heading">Breaking Copyright</h2>
-              <div class="project-subHeading">
-                A Platform to download Copyright free youtube music 
-              </div>
+          <div class="hero-section-description">
+            I am a Mern Stack and here is my portfolio website. Here you will learn about my
+            journey as a Mern Stack Developer
+          </div>
 
-              <div class="btn-grp">
-                <button class="btn-pink btn-project">Read More</button>
-                <a href="">
-                  <i title="GitHub-link" class="fa-brands fa-github icon"></i>
-                </a>
-                <a href="">
-                  <i title="live-link" class="fa-solid fa-link icon"></i>
-                </a>
-              </div>
+          <!-- <div class="btn-pink" id="btn" ><a href="#icons" >Social Media</a></div> -->
+          <div class="btn-pink" id="btn">Social Media</div>
+
+          <script>
+            document.getElementById("btn").addEventListener("click", function () {
+              document.getElementById("icons").scrollIntoView({ behavior: "smooth" });
+            });
+          </script>
+
+
+        </div>
+
+        <div class="hero-section-right">
+          <div class="absolute icons icon-dots">
+            <img src="./Images/userAsset/dots.png" alt="">
+          </div>
+          <div class="absolute icons icon-cube">
+            <img src="./Images/userAsset/cube.png" alt="">
+          </div>
+          <div class="absolute icons icon-circle">
+            <img src="./Images/userAsset/circle.png" alt="">
+          </div>
+          <div class="absolute icons icon-zigzag">
+            <img src="./Images/userAsset/zigzags.png" alt="">
+          </div>
+          <div class="absolute icons icon-plus">
+            <img src="./Images/userAsset/plus.png" alt="">
+          </div>
+          <div class="user-image">
+            <img src="./Images/userAsset/suhelsaifi1.png" alt="" style="height: 250px; border-radius: 25px;">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="projects" class="project-section">
+      <h2 class="page-header">Projects</h2>
+      <div class="project-container">
+        <div class="project-card" id="Project1">
+          <div class="project-number project-number-right">01</div>
+          <div class="project-content project-content-left">
+            <div class="project-skills-container">
+              <img class="project-skill" src="Images/stack/HTML.png" alt="">
+              <img class="project-skill" src="Images/stack/CSS.png" alt="">
+              <img class="project-skill" src="Images/stack/Javascript.svg" alt="">
+              <img src="Images/stack/React.png" alt="" class="skills-logo">
+              <!-- <img class="project-skill" src="Images/stack/Express.png" alt=""> -->
+              <!-- <img class="project-skill" src="Images/stack/NextJsCircle.png" alt=""> -->
+              <!-- <img class="project-skill" src="Images/stack/Tailwind.png" alt=""> -->
+              <!-- <img class="project-skill" src="Images/stack/NodeJs.svg" alt=""> -->
+              <!-- <img class="project-skill" src="Images/stack/MongoDB.svg" alt=""> -->
+              <!-- <img class="project-skill" src="Images/stack/Redux.svg" alt=""> -->
+              <!-- <img class="project-skill" src="Images/stack/Vercel.svg" alt=""> -->
             </div>
+            <h2 class="project-heading">Random-Gifs</h2>
+            <div class="project-subHeading">
+              "A fun and interactive Random GIF Generator built using React.js and Giphy API. Users can fetch and
+              display a new GIF with just one click!"
+            </div>
+
+            <div class="btn-grp">
+              <button class="btn-pink btn-project">Read More</button>
+              <a href="https://github.com/Suhelsaifi0/random-gif.git">
+                <i title="GitHub-link" class="fa-brands fa-github icon"></i>
+              </a>
+              <a href="https://suhelsaifi0.github.io/random-gif/">
+                <i title="live-link" class="fa-solid fa-link icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" id="Project2">
+          <div class="project-number project-number-left">02</div>
+          <div class="project-content project-content-right">
+            <div class="project-skills-container">
+              <img class="project-skill" src="Images/stack/HTML.png" alt="">
+              <img class="project-skill" src="Images/stack/CSS.png" alt="">
+              <img class="project-skill" src="Images/stack/Javascript.svg" alt="">
+              <img src="Images/stack/React.png" alt="" class="skills-logo">
+              <!-- <img class="project-skill" src="Images/stack/Express.png" alt="">
+              <img class="project-skill" src="Images/stack/NextJsCircle.png" alt="">
+              <img class="project-skill" src="Images/stack/Tailwind.png" alt="">
+              <img class="project-skill" src="Images/stack/NodeJs.svg" alt="">
+              <img class="project-skill" src="Images/stack/MongoDB.svg" alt="">
+              <img class="project-skill" src="Images/stack/Redux.svg" alt=""> -->
+              <img class="project-skill" src="Images/stack/Vercel.svg" alt="">
+            </div>
+            <h2 class="project-heading">Online Shopping </h2>
+            <div class="project-subHeading">
+              A responsive React-based online shop app for browsing, adding to cart, and purchasing products.
+            </div>
+
+            <div class="btn-grp">
+              <button class="btn-pink btn-project">Read More</button>
+              <a href="https://github.com/Suhelsaifi0/OnlineShoppingAppReact.git">
+                <i title="GitHub-link" class="fa-brands fa-github icon"></i>
+              </a>
+              <a href="https://online-shopping-react-app.vercel.app/">
+                <i title="live-link" class="fa-solid fa-link icon"></i>
+              </a>
+            </div>
+          </div>
         </div>
 
 
@@ -150,85 +158,96 @@
               <img class="project-skill" src="Images/stack/HTML.png" alt="">
               <img class="project-skill" src="Images/stack/CSS.png" alt="">
               <img class="project-skill" src="Images/stack/Javascript.svg" alt="">
-              <img class="project-skill" src="Images/stack/Express.png" alt="">
+              <img src="Images/stack/React.png" alt="" class="skills-logo">
+              <!-- <img class="project-skill" src="Images/stack/Express.png" alt="">
               <img class="project-skill" src="Images/stack/NextJsCircle.png" alt="">
               <img class="project-skill" src="Images/stack/Tailwind.png" alt="">
               <img class="project-skill" src="Images/stack/NodeJs.svg" alt="">
               <img class="project-skill" src="Images/stack/MongoDB.svg" alt="">
-              <img class="project-skill" src="Images/stack/Redux.svg" alt="">
+              <img class="project-skill" src="Images/stack/Redux.svg" alt=""> -->
               <img class="project-skill" src="Images/stack/Vercel.svg" alt="">
             </div>
-            <h2 class="project-heading">Isha Tattva</h2>
+            <h2 class="project-heading">Study Notion</h2>
             <div class="project-subHeading">
-              A website for interior designer to showcase her work and sample
+              A React-based Study Notion app for managing courses, learning progress, and educational content seamlessly.
             </div>
 
             <div class="btn-grp">
               <button class="btn-pink btn-project">Read More</button>
-              <a href="">
+              <a href="https://github.com/Suhelsaifi0/StudyNotion.git">
                 <i title="GitHub-link" class="fa-brands fa-github icon"></i>
               </a>
-              <a href="">
+              <a href="https://study-notion-react-app.vercel.app/login">
                 <i title="live-link" class="fa-solid fa-link icon"></i>
               </a>
             </div>
           </div>
-      </div>
+        </div>
 
 
-      <div class="project-card" id="Project4">
-        <div class="project-number project-number-left">04</div>
-        <div class="project-content project-content-right">
-          <div class="project-skills-container">
-            <img class="project-skill" src="Images/stack/HTML.png" alt="">
-            <img class="project-skill" src="Images/stack/CSS.png" alt="">
-            <img class="project-skill" src="Images/stack/Javascript.svg" alt="">
-            <img class="project-skill" src="Images/stack/Express.png" alt="">
-            <img class="project-skill" src="Images/stack/NextJsCircle.png" alt="">
-            <img class="project-skill" src="Images/stack/Tailwind.png" alt="">
-            <img class="project-skill" src="Images/stack/NodeJs.svg" alt="">
-            <img class="project-skill" src="Images/stack/MongoDB.svg" alt="">
-            <img class="project-skill" src="Images/stack/Redux.svg" alt="">
-            <img class="project-skill" src="Images/stack/Vercel.svg" alt="">
-          </div>
-          <h2 class="project-heading">Granit</h2>
-          <div class="project-subHeading">
-            A architectural website to plan your building or home (Hebrew Language) 
-          </div>
+        <div class="project-card" id="Project4">
+          <div class="project-number project-number-left">04</div>
+          <div class="project-content project-content-right">
+            <div class="project-skills-container">
+              <img class="project-skill" src="Images/stack/HTML.png" alt="">
+              <img class="project-skill" src="Images/stack/CSS.png" alt="">
+              <img class="project-skill" src="Images/stack/Javascript.svg" alt="">
+              <img src="Images/stack/React.png" alt="" class="skills-logo">
+              <!-- <img class="project-skill" src="Images/stack/Express.png" alt="">
+              <img class="project-skill" src="Images/stack/NextJsCircle.png" alt="">
+              <img class="project-skill" src="Images/stack/Tailwind.png" alt="">
+              <img class="project-skill" src="Images/stack/NodeJs.svg" alt="">
+              <img class="project-skill" src="Images/stack/MongoDB.svg" alt="">
+              <img class="project-skill" src="Images/stack/Redux.svg" alt=""> -->
+              <img class="project-skill" src="Images/stack/Vercel.svg" alt="">
+            </div>
+            <h2 class="project-heading">Todo App</h2>
+            <div class="project-subHeading">
+            A responsive React-based Todo app for adding, managing, and tracking daily tasks with local storage support.
+            </div>
 
-          <div class="btn-grp">
-            <button class="btn-pink btn-project">Read More</button>
-            <a href="">
-              <i title="GitHub-link" class="fa-brands fa-github icon"></i>
-            </a>
-            <a href="">
-              <i title="live-link" class="fa-solid fa-link icon"></i>
-            </a>
+            <div class="btn-grp">
+              <button class="btn-pink btn-project">Read More</button>
+              <a href="https://github.com/Suhelsaifi0/TodoApp.git">
+                <i title="GitHub-link" class="fa-brands fa-github icon"></i>
+              </a>
+              <a href="https://todo-app-nu-ruddy.vercel.app/">
+                <i title="live-link" class="fa-solid fa-link icon"></i>
+              </a>
+            </div>
           </div>
         </div>
-      </div>
 
       </div>
-      </div>
+    </div>
 
-      <div id="skills" class="container skills-container">
-          
+    <div id="skills" class="container skills-container">
+
       <div class="skill-fade-text">Skills</div>
       <div class="skill-container-left">
-            <h2 class="skill-heading">
-              <span class="caps">M</span>e and
-              <br>
-                MyTech Stack
-            </h2>
+        <h2 class="skill-heading">
+          <span class="caps">M</span>e and
+          <br>
+          MyTech Stack
+        </h2>
 
-            <div class="skill-subHeading">
-              <p>Hii Everyone My name is Suhel Saifi I am a full stack Developer and I have been working for last 3 years and 
-              Currently I am working with a Budding Startup in USA and i full time Freelancer. Currently I am working with
-              NextJs and Making  Beautiful UI-UX are my key Feature</p>
-              <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet provident maiores tenetur sit unde ut repellendus, 
+        <div class="skill-subHeading">
+          <p>I completed a Full Stack Web Development Internship at Edubiz Networks during June–July 2025, where I
+            worked on both the frontend and backend of real-world web applications.
+
+            I was part of the team that built "Hobbizz", a responsive and dynamic website. On the frontend, I used
+            React.js and Tailwind CSS to create interactive user interfaces and ensured mobile responsiveness. On the
+            backend, I worked with Node.js, Express.js, and MongoDB to build RESTful APIs, handle authentication, and
+            manage database operations.
+
+            This internship gave me practical experience in full stack development, teamwork, Git-based collaboration,
+            and deploying working web apps from scratch.
+
+          </p>
+          <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet provident maiores tenetur sit unde ut repellendus, 
                 similique nesciunt reiciendis beatae suscipit asperiores animi rerum quibusdam omnis, atque enim iste magni!</p> -->
-            </div>
-      </div>  
+        </div>
+      </div>
 
       <div class="skill-container-right">
         <img src="Images/userAsset/blob vector.png" alt="" class="blob-style">
@@ -253,11 +272,11 @@
         <img src="Images/stack/Bash.svg" alt="" class="skills-logo">
         <img src="Images/stack/Docker.svg" alt="" class="skills-logo">
         <img src="Images/stack/K8s.svg" alt="" class="skills-logo"> -->
-      </div> 
       </div>
+    </div>
 
 
-      <!-- <div id="contact-me" class="container4">
+    <!-- <div id="contact-me" class="container4">
           <div class="container">
             <h1 class="Contactus-heading">Contact Me</h1>
             <h3 class="Contactus-subHeading">Questions, Thoughts,  Or Just Want to say Hello?</h3>
@@ -285,65 +304,67 @@
 
     <footer>
       <div class="container">
-      <div class="footer-wrapper">
-        <div class="footer-faded-text">Suhel Saifi</div>
-        <div class="link-wrapper">
-          <div>
-            <a href="#projects">Projects</a>
+        <div class="footer-wrapper">
+          <div class="footer-faded-text">Suhel Saifi</div>
+          <div class="link-wrapper">
+            <div>
+              <a href="#projects">Projects</a>
+            </div>
+            <div>
+              <a href="#skills">Skills</a>
+            </div>
+            <div><a href="ResumeSS.pdf" download="C:\Users\Suhel Saifi\Desktop\PortFolioWebsite\ResumeSS.pdf">Resume</a>
+            </div>
           </div>
-          <div>
-            <a href="#skills">Skills</a>
-          </div>
-          <div><a href="ResumeSS.pdf" download="C:\Users\Suhel Saifi\Desktop\PortFolioWebsite\ResumeSS.pdf">Resume</a></div>
-        </div>
 
-        <!-- <div class="icon-wrapper">
+          <!-- <div class="icon-wrapper">
           <i class="fa-brands fa-linkedin icon"></i>
           <i class="fa-brands fa-github icon"></i>
           <i class="fa-brands fa-instagram icon"></i>
           <i class="fa-brands fa-twitter icon"></i> -->
           <!-- <i class="fa-regular fa-envelope icon"></i> -->
-        <!-- </div>        -->
+          <!-- </div>        -->
 
-        <div id="icons" class="icon-wrapper">
-    <a href="https://www.linkedin.com/in/suhel-saifi-876007245/" target="_blank">
-    <i class="fa-brands fa-linkedin icon"></i>
-  </a>
-  
-  <a href="https://github.com/Suhelsaifi0" target="_blank">
-    <i class="fa-brands fa-github icon"></i>
-  </a>
-  
-  <a href="https://www.instagram.com/suhelsaifi_/?next=%2F" target="_blank">
-    <i class="fa-brands fa-instagram icon"></i>
-  </a>
-</div>
+          <div id="icons" class="icon-wrapper">
+            <a href="https://www.linkedin.com/in/suhel-saifi-876007245/" target="_blank">
+              <i class="fa-brands fa-linkedin icon"></i>
+            </a>
+
+            <a href="https://github.com/Suhelsaifi0" target="_blank">
+              <i class="fa-brands fa-github icon"></i>
+            </a>
+
+            <a href="https://www.instagram.com/suhelsaifi_/?next=%2F" target="_blank">
+              <i class="fa-brands fa-instagram icon"></i>
+            </a>
+          </div>
 
 
-      </div>
+        </div>
       </div>
     </footer>
 
 
-    </div>
+  </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
-    <script>
-      var typeData = new Typed(".role", {
-        strings: [
-          "Mern Stack Developer",
-          "Web Developer",
-          "UI-UX Designer",
-          "Backend Developer",
-          "Coder",
-        ],
-        loop: true,
-        typeSpeed: 100,
-        backSpeed: 80,
-        backDelay: 1000,
-      });
-    </script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+  <script>
+    var typeData = new Typed(".role", {
+      strings: [
+        "Mern Stack Developer",
+        "Web Developer",
+        "UI-UX Designer",
+        "Backend Developer",
+        "Coder",
+      ],
+      loop: true,
+      typeSpeed: 100,
+      backSpeed: 80,
+      backDelay: 1000,
+    });
+  </script>
 
-  </body>
-  </html>
+</body>
+
+</html>

@@ -435,21 +435,21 @@
 }
 
 #Project1{
-    background-image: url(./Images/projects/Project1.png);
+    background-image: url(./Images/projects/RandomGifSS.png);
 }
 
 #Project2{
     margin-left: 120px;
-    background-image: url(./Images/projects/Project2.png);
+    background-image: url(./Images/projects/OnlineShop.png);
 }
 
 #Project3{
-    background-image: url(./Images/projects/Project3.png);
+    background-image: url(./Images/projects/StudyNotion.png);
 }
 
 #Project4{
     margin-left: 120px;
-    background-image: url(./Images/projects/Project4.png);
+    background-image: url(./Images/projects/TodoApp.png);
 }
  
 .skills-container{
